@@ -1,0 +1,894 @@
+{
+  "nombre_documento": "estatuto_general_extracto.pdf",
+  "categoria_macro": "00_MARCO_CONSTITUCIONAL",
+  "bloques": [
+    {
+      "texto": "XIX. Directora o Director en funciones: Directora o Director en funciones legalmente,",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "independientemente de que su carácter sea: electo, sustituto o interino.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 5.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "La Universidad, es innovadora, plural, democrática, crítica, autocrítica,",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "pertinente, humanista y solidaria, con una proyección local, regional, nacional e",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "internacional, en permanente vinculación con su entorno. Plantea la formación integral de",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "los seres humanos como personas dignas, ciudadanos conscientes, comprometidos con su",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "entorno, profesionistas competentes, responsables y con sentido ético.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 6.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Los principios fundamentales de la Universidad son, entre otros, los siguientes:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "autonomía, democracia, ética, igualdad, humanismo desde el enfoque de los derechos",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "humanos, libertad académica, desarrollo sostenible, equidad de género, responsabilidad y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "compromiso social.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 7.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Los principios rectores de la Universidad se definirán, con sus respectivas",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "implicaciones para el quehacer institucional en el Código de Ética Universitaria.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 8",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": ". La Comunidad Universitaria está integrada por autoridades, estudiantes",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "personal académico, administrativo, técnico y de intendencia. Los jubilados y egresados",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "serán miembros honoríficos.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 9",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": ". Las relaciones laborales de la Universidad con su personal se regirán por lo",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "dispuesto en el Artículo 123, Apartado A, de la Constitución Política de los Estados Unidos",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Mexicanos, la legislación laboral correspondiente, así como por el o los contratos colectivos",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "convenidos entre la Universidad y su o sus sindicatos.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 10.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Los derechos y obligaciones de los estudiantes estarán contenidos en los",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "reglamentos respectivos.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 11.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "La Universidad, ofrece servicios educativos en tres modalidades: escolarizada,",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "no escolarizada y mixta.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 12.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "El Patrimonio de la Universidad se establece en los Artículos 13, 14, 15 y 16 de",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "la Ley Orgánica. La administración, conservación, investigación, selección, incremento,",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "preservación, restauración, mantenimiento, mejoramiento, salvaguarda, uso, usufructo y,",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "en su caso, la enajenación o donación del patrimonio universitario, estarán bajo la",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "responsabilidad de los órganos, autoridades y funcionarios universitarios; de conformidad",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "con la legislación aplicable.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "La Contraloría General de la Universidad será responsable de la fiscalización y vigilancia",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "del origen, asignación y uso de los recursos materiales, humanos y financieros, así como del",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "control, evaluación y desarrollo administrativo de la Universidad.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Título Segundo",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "De la Estructura y Organización de la Universidad",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Capítulo I",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Disposiciones Generales",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 13.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "La estructura académica y administrativa de la Universidad contempla los",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "siguientes tipos de entidades universitarias:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Unidad Académica;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. Unidad Administrativa;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "III. Unidad de Apoyo Técnico; y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "IV. Unidad de Servicio.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 14.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Las Unidades Académicas según el tipo educativo que atienden son las que",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "establece el Artículo 20 de la Ley Orgánica:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Unidad Académica de Educación Media Superior: Escuela Preparatoria; y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. Unidad Académica de Educación Superior:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "a) Escuela Superior;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "b) Facultad;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "c) Instituto; y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "d) Centro.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 15",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": ". El desarrollo de las Unidades Académicas tendrá en la planeación integral su",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "eje central, el cual será:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Por Área de Conocimiento, en el que se estructura el Programa Educativo, y por región,",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "para las Escuelas Preparatorias; y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. Por Área de Conocimiento, al que se adscriben los Programas Educativos de Educación",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Superior.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 16",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": ". La organización académica interna de la Unidad Académica según el tipo",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "educativo que atienden será en:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Escuelas Preparatorias mediante la: Academia General; y Academia por Área de",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Conocimiento; y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. Escuelas Superiores, Facultades, Institutos y Centros mediante la: Academia General y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Academia de Programa Educativo o Núcleo Académico Básico en Posgrado.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 17.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "La organización académica de unidades académicas, así como la creación,",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "modificación y supresión de programas educativos y de unidades académicas se establece",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "en:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Reglamento de Organización Académica de Unidades Académicas;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. Reglamento de Creación, Modificación y Supresión de Programas Educativos; y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "III. Reglamento de Creación, Modificación y Supresión de Unidades Académicas.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "De conformidad con lo que establece la Ley Orgánica y el presente Estatuto, así como",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "sustentarse en el Modelo Educativo y el Modelo Académico de la Universidad.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Capítulo II",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "De la Organización de la Educación Media Superior",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 18.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "La Escuela Preparatoria es la Unidad Académica de Educación Media Superior",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "que ofrece el Programa Educativo de Bachillerato.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 19",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": ". Las Escuelas Preparatorias tienen en su Academia General y en las Academias",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "de Área del Conocimiento el eje de su organización académica interna. Las atribuciones y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "el funcionamiento de estas Academias se establecerán en el Reglamento de Organización",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Académica de Unidades Académicas.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 20",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": ". La Escuela Preparatoria tiene en las Áreas del Conocimiento en que se",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "estructura su Programa Educativo, su eje de coordinación e integración.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 21.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "En la elaboración o modificación del programa educativo del bachillerato debe",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "observar:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Los principios y lineamientos que establece el Modelo Educativo Bachillerato UAGro;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. En lo que resulte compatible los principios y lineamientos que establece para el nivel de",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "educación media superior la Ley General de Educación; y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "III. Los lineamientos que establezcan los respectivos acuerdos de la autoridad educativa",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "federal y estatal, en relación con la estructura y elaboración del curriculum del programa",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "educativo del bachillerato.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Capítulo III",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "De la Organización de la Educación Superior",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 22.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Las Unidades Académicas de Educación Superior de la Universidad son:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Escuelas Superiores, que ofrecen uno o más Programas Educativos de Técnico Superior",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Universitario y/o de Licenciatura, en las diferentes disciplinas;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. Facultades, que ofrecen uno o más Programas Educativos de Licenciatura y uno o más",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "de Posgrado;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "III. Centros de Investigación e Institutos, que se dedican predominantemente a la",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "investigación, además de ofertar Programas Educativos de Posgrado;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "IV. Centros Regionales, que ofrecen Programas Educativos de Licenciatura y Posgrados, y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "responden predominantemente a las demandas y necesidades de la región donde se ubican.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 23.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Las unidades académicas de educación superior tienen en su academia general",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "y en sus academias de programas educativos, el eje de su organización académica interna.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "las atribuciones y el funcionamiento de estas academias, se establecerán en el reglamento",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "de organización académica.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "La creación y transformación de programas educativos de educación superior debe observar",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "los principios y lineamientos del:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Modelo Educativo Licenciatura UAGro; y",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. Modelo Educativo Posgrado UAGro.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 24.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Las Unidades Académicas de Educación Superior, tienen en las Áreas del",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Conocimiento a las que se incorporan estas y sus Programas Educativos, su eje de",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "coordinación e integración académica.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 25.",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Las Áreas de Conocimiento de Educación Superior son:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Ciencias Sociales y Administrativas;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "II. Educación y Humanidades;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "III. Biotecnología y Ciencias Agropecuarias;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "IV. Ciencias Exactas y Naturales;",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "V. Ciencias de la Salud; e",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "VI. Ingeniería y Tecnología.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Capítulo IV",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "De la Educación a Distancia",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": "Artículo 26",
+      "font_size": 11.0,
+      "is_bold": true,
+      "origen": "nativo"
+    },
+    {
+      "texto": ". En la Universidad, la Educación a Distancia se imparte en las modalidades no",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "escolarizada y mixta, y tiene por objetivo diversificar, ampliar y extender la oferta educativa",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "través de:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "I. Las Unidades Académicas, para:",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "a) Programas educativos completos, en coordinación con las Unidades Académicas; o",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    },
+    {
+      "texto": "b) Unidades de aprendizaje específicas de éstos.",
+      "font_size": 11.0,
+      "is_bold": false,
+      "origen": "nativo"
+    }
+  ]
+}

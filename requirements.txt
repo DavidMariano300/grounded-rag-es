@@ -1,0 +1,33 @@
+# Tested with Python 3.12 on Ubuntu 24.04 (CPU only).
+# NumPy 2.4 requires Python 3.11 or newer.
+
+# Extraction (stage 1)
+pdfplumber==0.11.10
+pypdf==6.14.2
+pdf2image==1.17.0
+pytesseract==0.3.13
+opencv-python==4.13.0.92
+pillow==12.2.0
+tqdm==4.67.3
+
+# Chunking and fidelity gate (stage 3)
+langchain-text-splitters==1.1.2
+requests==2.33.1
+
+# Vectorization and retrieval (stage 4 and search service)
+numpy==2.4.4
+torch==2.11.0
+transformers==5.7.0
+sentence-transformers==5.4.1
+gensim==4.4.0
+scikit-learn==1.8.0
+rank-bm25==0.2.2
+
+# Database
+psycopg2-binary==2.9.12
+pgvector==0.4.2
+
+# Services
+Flask==3.1.3
+Werkzeug==3.1.8
+gunicorn==23.0.0
