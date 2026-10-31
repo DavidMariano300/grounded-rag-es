@@ -55,7 +55,7 @@ The first test case is the Universidad Autónoma de Guerrero (UAGro), Mexico:
 - **13 dense models plus Doc2Vec** vectorized for every fragment.
 - Runs **fully on local hardware, CPU only** for now. Documents and questions are never sent to an external API.
 
-The corpus was provided under an agreement with the university and is not redistributed here. [`examples/`](examples/) contains a public extract of the university's general statute with the output of every stage, so the pipeline can be tested without the corpus or a database.
+The pipeline was developed in a private repository from 2025 together with the institutional corpus, and was published here as a clean snapshot without data or credentials. The corpus was provided under an agreement with the university and is not redistributed here. [`examples/`](examples/) contains a public extract of the university's general statute with the output of every stage, so the pipeline can be tested without the corpus or a database.
 
 What does not work well yet, measured on the corpus and shown in the example:
 
