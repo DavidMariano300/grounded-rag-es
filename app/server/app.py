@@ -1,8 +1,8 @@
 import os
 import gc
+import logging
 from pathlib import Path
 import time
-from datetime import datetime
 import torch
 import psycopg2
 import requests
@@ -12,6 +12,9 @@ from gensim.models.doc2vec import Doc2Vec
 from rank_bm25 import BM25Okapi
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+
+logging.basicConfig(level=logging.INFO, format="[%(asctime)s] [%(levelname)s] %(message)s")
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 app.config['APPLICATION_ROOT'] = '/benchmark-RAG'
@@ -44,10 +47,6 @@ TRANSFORMER_MODELS = {
     "MarIA": ("PlanTL-GOB-ES/roberta-base-bne", "vector_maria"),
     "DistilUSE": ("sentence-transformers/distiluse-base-multilingual-cased-v1", "vector_distiluse")
 }
-
-def log_event(tag, message):
-    timestamp = datetime.now().strftime("%H:%M:%S.%f")[:-3]
-    print(f"[{timestamp}] [{tag}] {message}")
 
 def get_db_connection():
     for attempt in range(3):
@@ -103,7 +102,7 @@ def search():
 
     final_results = {}
     chunk_tracker = {}
-    log_event("INFO", f"BENCHMARK INICIADO | Query: '{query[:80]}...' | LLM: {llm_seleccionado}")
+    logger.info(f"BENCHMARK INICIADO | Query: '{query[:80]}...' | LLM: {llm_seleccionado}")
 
     conn = None
     cur = None
@@ -118,13 +117,13 @@ def search():
             return jsonify({"error": "No se encontraron documentos en la base de datos"}), 500
 
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        log_event("INFO", f"Dispositivo: {device.upper()}")
+        logger.info(f"Dispositivo: {device.upper()}")
 
         for model_name in modelos_seleccionados:
             try:
                 top_3_chunks = []
                 t0 = time.time()
-                log_event("INFO", f"Evaluando: {model_name}")
+                logger.info(f"Evaluando: {model_name}")
 
                 if model_name == "BM25":
                     bm25 = BM25Okapi([d['cont'].lower().split() for d in processed_corpus])
@@ -152,12 +151,12 @@ def search():
                             for r in cur.fetchall():
                                 top_3_chunks.append({"id": r[0], "ruta": r[1], "texto": r[2]})
                     except Exception:
-                        log_event("INFO", "Doc2Vec: modelo no encontrado, omitiendo")
+                        logger.info("Doc2Vec: modelo no encontrado, omitiendo")
                         pass
 
                 elif model_name in TRANSFORMER_MODELS:
                     hf_id, col_name = TRANSFORMER_MODELS[model_name]
-                    log_event("INFO", f"Cargando {hf_id} en {device.upper()}")
+                    logger.info(f"Cargando {hf_id} en {device.upper()}")
                     model = SentenceTransformer(hf_id, device=device)
                     q_vec = model.encode([query], convert_to_numpy=True)[0].tolist()
                     cur.execute(f"SELECT id, ruta_jerarquica, contenido FROM benchmark_chunks WHERE {col_name} IS NOT NULL ORDER BY {col_name} <=> %s::vector LIMIT 3", (q_vec,))
@@ -167,7 +166,7 @@ def search():
                     if device == 'cuda': torch.cuda.empty_cache()
 
                 t_retrieval = time.time() - t0
-                log_event("INFO", f"Recuperacion: {round(t_retrieval, 2)}s | Chunks: {len(top_3_chunks)}")
+                logger.info(f"Recuperacion: {round(t_retrieval, 2)}s | Chunks: {len(top_3_chunks)}")
 
                 for chunk in top_3_chunks:
                     c_id = chunk["id"]
@@ -185,7 +184,7 @@ def search():
                     "stats": {"retrieval_sec": round(t_retrieval, 2), "llm_sec": round(t_llm, 2), "total_sec": round(t_retrieval + t_llm, 2)}
                 }
             except Exception as e:
-                log_event("ERROR", f"Fallo en {model_name}: {str(e)}")
+                logger.error(f"Fallo en {model_name}: {str(e)}")
                 if 'model' in locals():
                     try: del model
                     except: pass
@@ -204,10 +203,10 @@ def search():
         return jsonify({"results": final_results, "global_stats": global_stats})
 
     except psycopg2.OperationalError as e:
-        log_event("ERROR", f"Error de base de datos: {e}")
+        logger.error(f"Error de base de datos: {e}")
         return jsonify({"error_global": "No se pudo conectar a la base de datos."}), 503
     except Exception as e:
-        log_event("ERROR", f"Error inesperado: {e}")
+        logger.error(f"Error inesperado: {e}")
         return jsonify({"error_global": f"Error interno del servidor: {str(e)}"}), 500
     finally:
         if cur: cur.close()
